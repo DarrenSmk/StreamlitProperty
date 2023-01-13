@@ -42,39 +42,5 @@ st.write('It does not show a strong relationship between prime rate and the prop
 st.write('If the prime rate keep increasing in the coming years, it is believed that it will become the last straw that break the camel\'s back')
 st.image('StreamlitProjectDeploy/img/P-rateValue.png')
 
-st.header('Stamp Duty')
-data = [['Special Stamp Duty, SSD','between 20% to 10%','To prevent the buyer resell it within 3 years','27 Oct 2012'],['Double Stamp Duty, DSD','15%','To those non-first time buyer','5 Nov 2016'],['Buyer Stamp Duty, BSD','15%','Not HKPR and conpany buyers','19 Oct 2022']]
-df = pd.DataFrame(data,
-    columns=['Type','Rate','Target','Effective Date'],
-    index=[1,2,3]
-)
-st.table(df)
-st.image('StreamlitProjectDeploy/img/stampduty.jpg')
-
-st.header('Mortgage Calculator')
-amount = st.slider('Select the mortgage amount', 0,10000000,3000000)
-Rate = st.slider('Select the interest rate',0.0,10.0,3.0)
-YearR = Rate/100
-r = YearR/12
-Loadyear = st.slider('Loan Tenor',5,30,25)
-n = Loadyear*12
-MonthlyRepayment = amount*((r*(1+r)**n)/ ((1+r)**n-1))
-st.write('Monthly Repayment : ',"{:.0f}".format(MonthlyRepayment))
-st.write('Minimum Monthly Income : ',"{:.0f}".format(MonthlyRepayment*2))
-
-TotalinterestExpense = MonthlyRepayment*n-amount
-TotalMortgage = TotalinterestExpense+amount
-st.write('Total Interest Expense : ', "{:.0f}".format(TotalinterestExpense))
-st.write('Total Mortgage Amount : ', "{:.0f}".format(TotalMortgage))
-
-labels = 'Total Interest', 'Loan Amount'
-sizes = [TotalinterestExpense, amount]
-explode = (0, 0.1)
-
-MortgagePie, ax1 = plt.subplots()
-ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-ax1.axis('equal') 
-st.pyplot(MortgagePie)
 
 
