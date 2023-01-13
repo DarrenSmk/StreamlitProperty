@@ -10,7 +10,7 @@ st.sidebar.write("US Index")
 
 st.header('China GDP and PPI')
 st.write('China GDP remained about 8 percent cumulative quarterly year-on-year growth from 2012 to 2019')
-st.write('PPI drop under zero recently mirroring a sluggish global economic environment ')
+st.write('China PPI drop under zero recently mirroring a sluggish global economic environment ')
 st.write('Due to the China and US trade war recently, the political issue is uncertain, China is losing its advantage on the subcontract business.')
 st.image('StreamlitProjectDeploy/img/PPIvsGDP12-22.png')
 
