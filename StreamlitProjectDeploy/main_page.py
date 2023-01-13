@@ -28,7 +28,7 @@ st.table(datasetTable)
 
 
 st.header('The Population history ')
-st.write('The population from 6.5 million in 1997 raise to 7.3Million in 2022.')
+st.write('The population from 6.5 million in 1997 raise to 7.3 million in 2022.')
 st.write('Increased 800 thousand pepole (about 12%➚) ')
 st.image('StreamlitProjectDeploy/img/population97to22.png')
 
