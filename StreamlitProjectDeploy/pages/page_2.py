@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 st.markdown("# Local Factors")
 st.sidebar.markdown("# Local factors")
@@ -51,29 +51,5 @@ df = pd.DataFrame(data,
 st.table(df)
 st.image('StreamlitProjectDeploy/img/stampduty.jpg')
 
-st.header('Mortgage Calculator')
-amount = st.slider('Select the mortgage amount', 0,10000000,3000000)
-Rate = st.slider('Select the interest rate',0.0,10.0,3.0)
-YearR = Rate/100
-r = YearR/12
-Loadyear = st.slider('Loan Tenor',5,30,25)
-n = Loadyear*12
-MonthlyRepayment = amount*((r*(1+r)**n)/ ((1+r)**n-1))
-st.write('Monthly Repayment : ',"{:.0f}".format(MonthlyRepayment))
-st.write('Minimum Monthly Income : ',"{:.0f}".format(MonthlyRepayment*2))
 
-TotalinterestExpense = MonthlyRepayment*n-amount
-TotalMortgage = TotalinterestExpense+amount
-st.write('Total Interest Expense : ', "{:.0f}".format(TotalinterestExpense))
-st.write('Total Mortgage Amount : ', "{:.0f}".format(TotalMortgage))
-
-labels = 'Total Interest', 'Loan Amount'
-sizes = [TotalinterestExpense, amount]
-explode = (0, 0.1)
-
-MortgagePie, ax1 = plt.subplots()
-ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%',
-        shadow=True, startangle=90)
-ax1.axis('equal') 
-st.pyplot(MortgagePie)
 
