@@ -23,7 +23,7 @@ st.header('Purpose:')
 
 
 st.header('Dataset')
-datasetTable = pd.read_csv('dataset.csv')
+datasetTable = pd.read_csv('StreamlitProjectDeploy/dataset.csv')
 st.table(datasetTable)
 
 
