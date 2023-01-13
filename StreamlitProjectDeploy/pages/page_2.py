@@ -40,7 +40,7 @@ st.image('StreamlitProjectDeploy/img/SalaryValue.png')
 st.header('Prime Rate')
 st.write('It does not show a strong relationship between prime rate and the properties market.')
 st.write('If the prime rate keep increasing in the coming years, it is believed that it will become the last straw that break the camel\'s back')
-st.image('StreamlitProjectDeploy/img/P-rateValue.png')
+st.image('StreamlitProjectDeploy/img/PrateValue.png')
 
 st.header('Stamp Duty')
 data = [['Special Stamp Duty, SSD','between 20% to 10%','To prevent the buyer resell it within 3 years','27 Oct 2012'],['Double Stamp Duty, DSD','15%','To those non-first time buyer','5 Nov 2016'],['Buyer Stamp Duty, BSD','15%','Not HKPR and conpany buyers','19 Oct 2022']]
