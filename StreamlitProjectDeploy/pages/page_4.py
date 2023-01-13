@@ -3,6 +3,8 @@ import streamlit as st
 st.markdown("# Conclusion")
 st.image('StreamlitProjectDeploy/img/sosad.jpg')
 st.sidebar.markdown("# Conclusion")
+st.sidebar.write("Findings")
+st.sidebar.write("Recommendation")
 
 st.write('Yes, it is a bubble!')
 
