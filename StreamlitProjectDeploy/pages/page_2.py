@@ -43,7 +43,7 @@ st.write('If the prime rate keep increasing in the coming years, it is believed 
 st.image('StreamlitProjectDeploy/img/PrateValue.png')
 
 st.header('Stamp Duty')
-data = [['Special Stamp Duty, SSD','between 20% to 10%','To prevent the buyer resell it within 3 years','27 Oct 2012'],['Double Stamp Duty, DSD','15%','To those non-first time buyer','5 Nov 2016'],['Buyer Stamp Duty, BSD','15%','Not HKPR and conpany buyers','19 Oct 2022']]
+data = [['Special Stamp Duty, SSD','between 10% to 20%','To prevent the buyer resell it within 3 years','27 Oct 2012'],['Double Stamp Duty, DSD','15%','To those non-first time buyer','5 Nov 2016'],['Buyer Stamp Duty, BSD','15%','Not HKPR and conpany buyers','19 Oct 2022']]
 df = pd.DataFrame(data,
     columns=['Type','Rate','Target','Effective Date'],
     index=[1,2,3]
