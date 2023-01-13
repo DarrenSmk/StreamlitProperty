@@ -2,11 +2,11 @@
 
 ## Purpose
 
-The purpose of this project is to understand the current status of Hong Kong property market and visualise the dateset for a better understanding.
+The purpose of this project is to understand the situation of Hong Kong property market from 1997 to 2022 and visualise the dateset by Tableau for a better understanding.
 
 ## Tools
-Streamlit 
-Python
+Streamlit ,
+Python ,
 Tableau
 
 ## Link for the project
