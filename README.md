@@ -4,6 +4,9 @@
 
 The purpose of this project is to understand the situation of Hong Kong property market from 1997 to 2022 and visualise the dateset by Tableau for a better understanding.
 
+## Description
+The property market was analysed by different perspective such as the population structure, property transactions history, government policy, China's economy and US's economy. After all, some reccomendations were addressed.
+
 ## Tools
 Streamlit ,
 Python ,
