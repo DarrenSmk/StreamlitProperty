@@ -15,7 +15,7 @@ st.sidebar.write("Mortgage Calculator")
 st.header('Population by type of house')
 st.write('Majority of the people live in private permanent housing')
 st.write('About 30 percent of the people live in public rental housing with the median monthly rent of $2090 HKD')
-st.image('StreamlitProjectDeploy/img/populationByTypeofHouse.png')
+st.image('StreamlitProjectDeploy/img/PopulationByTypeofHouse.png')
 
 
 
