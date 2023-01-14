@@ -12,7 +12,8 @@ st.sidebar.write("HK Population")
 st.sidebar.write("Property Transaction History")
 
 
-st.image('StreamlitProjectDeploy/img/hkhousing.jpg')
+
+st.image('StreamlitProjectDeploy/img/HK.jpg')
 st.write('The most expensive residential property market in the world')
 st.header('Purpose:')
 """
