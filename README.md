@@ -2,10 +2,10 @@
 
 ## Purpose
 
-The purpose of this project is to understand the situation of Hong Kong property market from 1997 to 2022 and visualise the dateset by Tableau for a better understanding.
+The purpose of this project is to understand the situation of Hong Kong property market from 1997 to 2022.
 
 ## Description
-As we all know, Hong Kong's property is one of the most expensive property among the global market, and we believe that there is a huge bubble to be bursted. Therefore, we start to investigate the reasons and try to find out the consequence. The property market was analysed with different perspective such as the population structure, property transactions history, government policy, China's economy and US's economy. After all, some reccomendations were addressed.
+As we all know, Hong Kong's property market is the most expensive market in the world, and we believe that there is a huge bubble to be bursted. Therefore, we would like to investigate the reasons and try to forecast the market performance in the coming 10 years. The property market was analysed with different perspective such as the Hong Kong population structure, property transactions history, government policy, China's economy and US's economy. After all, some recomendations were addressed.
 
 ## Tools
 Streamlit ,
